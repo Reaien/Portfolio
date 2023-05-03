@@ -2,7 +2,7 @@ body{
     background-color: rgb(33, 47, 63);
 }
 
-h1,h2,h3,h4,h5,a,p{
+h1,h2,h3,h4,h5,h6,a,p{
     font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -63,6 +63,9 @@ h1,h2,h3,h4,h5,a,p{
     justify-content: end;
     
 }
+.card-text{
+    color: rgb(211, 211, 211);
+}
 
 .card-body{
     background-color: rgb(33, 47, 63);
@@ -70,4 +73,20 @@ h1,h2,h3,h4,h5,a,p{
 
 .card-body h5{
     color: rgb(31, 198, 96)
+}
+
+.contenedor-estudios h2{
+    color: rgb(31, 198, 96);
+}
+
+.contenedor-estudios h4{
+    color:rgb(194, 194, 194);
+}
+
+.fecha h6{
+    color: rgb(31, 198, 96);;
+}
+
+.contenedor-skills{
+    color: rgb(31, 198, 96);
 }
