@@ -4,6 +4,7 @@ body{
 
 h1,h2,h3,h4,h5,h6,a,p{
     font-family: 'IBM Plex Mono', monospace;
+    font-size: 1rem;
 }
 
 .name h1{
@@ -35,10 +36,10 @@ h1,h2,h3,h4,h5,h6,a,p{
 
 /*Efecto type*/
 #h1_type{
-    animation: typing 2s steps(20), transparent .5s step-end infinite alternate;
+    animation: typing 2s steps(21), transparent .5s step-end infinite alternate;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 20ch;
+    width: 21ch;
     overflow: hidden;
 }
 @media (max-width: 767px) {
@@ -88,5 +89,8 @@ h1,h2,h3,h4,h5,h6,a,p{
 }
 
 .contenedor-skills{
+    color: rgb(31, 198, 96);
+}
+.contenedor-rs h3{
     color: rgb(31, 198, 96);
 }
